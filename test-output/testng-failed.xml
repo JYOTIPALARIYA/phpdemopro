@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE ToolQA Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.php.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Free ToolQA Test Cases(failed)">
+    <classes>
+      <class name="com.qa.php.testcases.LoginPageTest">
+        <methods>
+          <include name="ValidateImageloginpagetest"/>
+          <include name="cleardown"/>
+          <include name="ValidateTitleloginpagetest"/>
+          <include name="setUp"/>
+          <include name="logintoapp"/>
+        </methods>
+      </class> <!-- com.qa.php.testcases.LoginPageTest -->
+      <class name="com.qa.php.testcases.HomePageTest">
+        <methods>
+          <include name="clickOnPracticeForms"/>
+          <include name="cleardown"/>
+          <include name="setUp"/>
+          <include name="clickOnForms"/>
+        </methods>
+      </class> <!-- com.qa.php.testcases.HomePageTest -->
+      <class name="com.qa.php.testcases.PracticeTest">
+        <methods>
+          <include name="verifyForm" invocation-numbers="1"/>
+          <include name="setUp"/>
+          <include name="closedr"/>
+        </methods>
+      </class> <!-- com.qa.php.testcases.PracticeTest -->
+    </classes>
+  </test> <!-- Free ToolQA Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE ToolQA Test Automation Test Suite] -->

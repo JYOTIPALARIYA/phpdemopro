@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE ToolQA Test Automation Test Suite">
+
+
+	
+<listeners>
+		<listener class-name="com.qa.php.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	<test name="Free ToolQA Test Cases">
+		<classes>
+			<class name="com.qa.php.testcases.LoginPageTest"></class>
+			<class name="com.qa.php.testcases.HomePageTest"></class>
+			<class name="com.qa.php.testcases.PracticeTest"></class>
+
+		</classes>
+	</test>
+</suite>
